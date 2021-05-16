@@ -23,6 +23,7 @@ TEMPLATE_DEBUG = False
 ## For additional configuration options, look at:
 # https://github.com/taigaio/taiga-back/blob/master/settings/local.py.example
 
+DEFAULT_FROM_EMAIL = 'admin+taiga@wspdigital.com'
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_USE_TLS = True
 EMAIL_HOST = 'email-smtp.ap-southeast-2.amazonaws.com'
